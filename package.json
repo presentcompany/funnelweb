@@ -1,0 +1,29 @@
+{
+  "name": "funnelweb",
+  "version": "0.0.1",
+  "description": "Detect search engine crawlers by their User-Agent strings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha -u tdd --reporter dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/presentcompany/funnelweb.git"
+  },
+  "keywords": [
+    "search",
+    "engine",
+    "user",
+    "agent",
+    "crawler",
+    "spider"
+  ],
+  "author": "Present Company <hello@presentcompany.co> (http://presentcompany.co)",
+  "maintainers": [
+    "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.7.4"
+  }
+}
