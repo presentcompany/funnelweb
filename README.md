@@ -1,4 +1,4 @@
-# funnelweb #
+# funnelweb [![Build Status](https://secure.travis-ci.org/presentcompany/funnelweb.png?branch=master)](http://travis-ci.org/presentcompany/funnelweb) #
 
 Tries to detect if a request is coming from a machine or a person using a
 regular expression. Bot and browser `User-Agent` strings sourced from
