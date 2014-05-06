@@ -15,10 +15,10 @@ $ npm install funnelweb
 Funnelweb just takes a user agent string and returns "true" if it's probably a bot, or "false" otherwise.
 
 ``` javascript
-var funnelweb = require('funnelweb')
+var funnelweb = require('funnelweb');
 
-funnelweb('GoogleBot') // true
-funnelweb('Google Chrome') // false
+funnelweb('GoogleBot'); // true
+funnelweb('Google Chrome'); // false
 ```
 
 If you pass it an HTTP request object, it'll read the User-Agent header and do
@@ -26,15 +26,15 @@ the same:
 
 ``` javascript
 var funnelweb = require('funnelweb')
-  , http = require('http')
+  , http = require('http');
 
 http.createServer(function(req, res) {
-  var response = funnelweb(req)
+  var isABot = funnelweb(req);
 
-  if (bot) {
-    res.end('you are a bot')
+  if (isABot) {
+    res.end('you are a bot');
   } else {
-    res.end('you are not a bot')
+    res.end('you are not a bot');
   }
-}).listen(3000)
+}).listen(3000);
 ```
