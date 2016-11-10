@@ -1,6 +1,6 @@
 {
-  "name": "funnelweb",
-  "version": "0.0.2",
+  "name": "@qubit/funnelweb",
+  "version": "1.0.0",
   "description": "Detect search engine crawlers by their User-Agent strings.",
   "main": "index.js",
   "scripts": {
